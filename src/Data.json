@@ -1,0 +1,52 @@
+
+[
+  {
+    "productId":1,
+    "product_name":"Jeans pants",
+    "color":"Dark Blue",
+    "Size":32,
+    "Quantity":20
+  },
+  {
+    "productId":2,
+    "product_name":"Jeans pants",
+    "color":"Light Blue",
+    "Size":"32",
+    "Quantity":40
+  },
+  {
+    "productId":3,
+    "product_name":"Jeans pants",
+    "color":"Black",
+    "Size":"32",
+    "Quantity":60
+  },
+  {
+    "productId":4,
+    "product_name":"Formal Pants",
+    "color":"Black",
+    "Size":"32",
+    "Quantity":60
+  },
+  {
+    "productId":5,
+    "product_name":"Formal Pants",
+    "color":"Gray",
+    "Size":"30",
+    "Quantity":80
+  },
+  {
+    "productId":6,
+    "product_name":"Cotton Jeans",
+    "color":"Light Brown",
+    "Size":"30",
+    "Quantity":80
+  },
+  {
+    "productId":7,
+    "product_name":"Cotton Jeans",
+    "color":"Black",
+    "Size":"30",
+    "Quantity":100
+  }
+]
