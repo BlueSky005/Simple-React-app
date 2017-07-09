@@ -5,10 +5,14 @@ import _ from 'lodash';
 
 export default class DisplayBoard extends Component  {
 
-componentWillMount() {
-this.setState({ products:this.props.products  });
-this.setState({ productNames: _.map(this.props.products, 'product_name')  });
+constructor(props)  {
+  super(props);
   this.handleInputChange = this.handleInputChange.bind(this);
+}
+
+componentWillMount() {
+  this.setState({ products:this.props.products  });
+  this.setState({ productNames: _.map(this.props.products, 'product_name')});
 }
 
 handleInputChange(e) {
